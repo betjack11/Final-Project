@@ -1,71 +1,74 @@
 h1 {
-  font-family: georgia;
+  font-family: Pacifico;
   font-weight: bold;
   font-style: normal;
 }
 
 body {
-  font-family: serif;
+  font-family: comic-sans;
   font-weight: normal;
   font-style: normal;
   background-image: url("http://airvidtech.com/wp-content/uploads/2015/07/blue-background2.jpg");
-  color: black
+  color: black;
 }
-
-
 
 header {
   text-align: center;
-  color: #0C4673;
   font-size: 30px;
   color: black;
-  background-color: #B5CADC;
-  opacity: 0.7;
+  background-color: white;
+  opacity: 0.8;
   width: 1200px;
-  border: 45px black;
-  padding: 40px;
-  margin: 50px;
+  border: 18px black;
+  padding: 15px;
+  margin: 30px;
 }
 
 form {
-  font-size: 25px;
+  font-size: 15px;
+  height: 20px;
+  width: 1200px;
+  padding: 10px;
+  margin: 5px;
 }
 
 p {
   color:white;
-  background-color:  ;
-  width: 800px;
-  border: 45px #216591;
-  padding: 45px;
-  margin: 50px;
-  font-size: 28px;
+  width: 1200px;
+  margin: 5px;
+  font-size: 18px;
 }
 
 #questions {
   color:black;
-  background-color: #3D6DC9;
-  opacity: 0.9;
-  width: 800px;
-  border: 45px #216591;
-  padding: 40px;
-  margin: 50px;
-  font-size: 28px;
-  text-align: center
+  background-color: #73A0F7;
+  opacity: 1;
+  width: 1175px;
+  padding: 10px;
+  margin: 10px;
+  font-size: 20px;
+  text-align: left;
 }
 
-.img {
-  border: white;
-  display: inline-block;
+
+.memes {
+  border: 3px black;
+  text-align: ;
 }
 
 .dropdown {
-  background-color: ;
   opacity: 0.9;
-  width: 1000px;
-  padding: 15px;
+  width: 1230px;
+  background-color: white;
+  margin: 30px;
+  height: 40px;
 }
 
 .dropdown-content {
+  color: black;
+}
+
+#myDropdown a {
   color: black;
 }
 
@@ -82,61 +85,37 @@ a:hover {
     color: black;
 }
 
-.previous {
-    background-color: #f1f1f1;
+.next {
+    background-color: white;
     color: black;
 }
 
-.next {
-    background-color: #4CAF50;
-    color: white;
-}
-
-.round {
-    border-radius: 50%;
-}
-
-#labels {
-  text-align: center
-}
 
 .multiple-choice {
 	display: inline-block;
-	width: 400px;
-	height: 210px;
-	margin: 10px;
-	padding: 50px;
+	width: 1000px;
+	height: 50px;
+	margin: 5px;
+	padding: 25px;
 	text-align: left;
 	vertical-align: top;
-	background: #3D6DC9;
-	box-shadow: 0 1px 2px rgba(0,0,0,.1);
+	background:;
 }
 
+
+
 .correct {
-	font-size: 18px;
-	position: relative;
+	font-size: 15px;
+	position: ;
 	margin-bottom: 15px;
-	padding-left: 30px;
+	padding-left: 20px;
 	cursor: pointer;
 }
 
 .wrong {
-	font-size: 18px;
-	position: relative;
+	font-size: 15px;
+	position: ;
 	margin-bottom: 15px;
-	padding-left: 30px;
+	padding-left: 20px;
 	cursor: pointer;
-}
-
-.indicator {
-	position: absolute;
-	top: 2px;
-	left: 0;
-	width: 20px;
-	height: 20px;
-	background: #e6e6e6;
-}
-
-#myDropdown a{
-  color: black;
 }
