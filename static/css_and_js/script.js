@@ -21,7 +21,7 @@ function getScore(){
 
 function printScore(){
   var para = document.createElement("P");
-  var current_score = document.createTextNode("Score : " + score);
+  var current_score = document.createTextNode("Your Score Is: " + score);
   para.appendChild(current_score);
   document.getElementById("questions").appendChild(para);
 }
