@@ -1,11 +1,11 @@
 h1 {
-  font-family: Pacifico;
+  font-family: 'Happy Monkey';
   font-weight: bold;
   font-style: normal;
 }
 
 body {
-  font-family: comic-sans;
+  font-family: 'Happy Monkey';
   font-weight: normal;
   font-style: normal;
   background-image: url("http://airvidtech.com/wp-content/uploads/2015/07/blue-background2.jpg");
@@ -71,6 +71,7 @@ p {
 #myDropdown a {
   color: black;
 }
+
 
 a {
     display: inline-block;
